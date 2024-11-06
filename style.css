@@ -1,0 +1,125 @@
+/* General reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .language-selector {
+    margin-top: 10px;
+}
+
+header .language-selector select {
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero .hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero .cta-btn {
+    padding: 15px 30px;
+    background-color: #f4b400;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: white;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-links {
+    margin-bottom: 10px;
+}
+
+footer .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 25px;
+    height: 25px;
+}
